@@ -1,0 +1,87 @@
+
+@media screen and (max-width: 480px) {
+
+
+	body {
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      position: relative;
+      height: 100%;
+      font-family: 'Noto Sans JP', sans-serif;
+
+   }
+   .top-img {
+      width: 100%;
+   }
+
+   .ivent {
+      margin: 10px;
+      font-weight: bold;
+   }
+
+   .flex {
+      display: flex;
+   }
+
+   .swiper {
+      height: 400px;
+      width: 100%;
+      margin: 10px 0px;
+   }
+   .swiper--wrapper {
+        /* wrapperのサイズを調整 */
+      width: 100%;
+      height: 250px;
+   }
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: ;
+        background: #fff;
+        display: flex;
+        justify-content: ;
+        align-items: ;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .container {
+        margin: 10px auto;
+        border-bottom: 1px solid #CCC;
+     }
+
+     .tab-menu {
+        border-bottom: 1px solid #CCC;
+     }
+     .tab-menu .swiper-slide {
+        width: auto;
+        padding: 5px;
+     }
+     .tab-contents {
+
+     }
+     .swiper-slide-thumb-active {
+        border-bottom: 2px solid rgb(9, 8, 53);
+        color: rgb(9, 8, 53) !important;
+     }
+
+     ul {
+      margin: 5px;
+      padding: 0;
+     }
+
+   li {
+      list-style: none;
+      padding: 5px;
+   }
+}
